@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
         { label: 'Store', href: '/store' },
         { label: 'Mac', href: '/mac' },
         { label: 'iPhone', href: '/iphone' },
@@ -6,3 +6,27 @@ export const navLinks = [
         { label: 'Vision', href: '/vision' },
         { label: 'AirPods', href: '/airpods' }
     ]
+
+const noChangeParts = [
+        "Object_84",
+        "Object_37",
+        "Object_42",
+        "Object_34",
+        "Object_12",
+        "Object_80",
+        "Object_35",
+        "Object_36",
+        "Object_13",
+        "Object_125",
+        "Object_76",
+        "Object_33",
+        "Object_58",
+        "Object_52",
+        "Object_21",
+        "Object_10",
+];
+
+export {
+        navLinks,
+        noChangeParts,
+}

@@ -28,10 +28,10 @@ const StudioLights = () => {
                 intensity={Math.PI * 0.2}
             />
             <spotLight
-                position={[0, 20, 5]}
+                position={[0, 20, 10]}
                 angle={0.15}
                 decay={0.3}
-                intensity={Math.PI}
+                intensity={Math.PI * 4}
             />
 
         </group>
