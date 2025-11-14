@@ -1,6 +1,9 @@
 import React from 'react'
 import useMacbookStore from "../store/index.js";
 import clsx from "clsx";
+import {Canvas} from "@react-three/fiber";
+import {Box, OrbitControls} from "@react-three/drei";
+import MacbookModel14 from "./models/Macbook-14.jsx";
 
 const ProductViewer = () => {
 
@@ -39,7 +42,15 @@ const ProductViewer = () => {
                     </div>
                 </div>
             </div>
-            <p className={'text-white text-4xl'}>Render Canvas</p>
+            <Canvas id={'canvas'} camera={{position: [0, 2, 5], fov: 50, near: 0.1, far: 100}}>
+                {/*<Box position={[0, 0, 0]} scale={10*scale} material-color={color}/>*/}
+
+                <MacbookModel14 scale={scale} position={[0, 0, 0]}/>
+                {/*<ambientLight intensity={2} position={[0, 2, 1]}/>*/}
+                {/*<directionalLight position={[0, 2, 4]} intensity={0.8}/>*/}
+                {/*<spotLight position={[1, 3, 10]} angle={0.15} penumbra={1} castShadow/>*/}
+                <OrbitControls enableZoom={false}/>
+            </Canvas>
         </section>
     )
 }
