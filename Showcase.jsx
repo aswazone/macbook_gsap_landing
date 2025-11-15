@@ -96,7 +96,7 @@ const Showcase = () => {
                 }
             );
         }
-    }, []);
+    }, { dependencies : [isTablet] , revertOnUpdate: true}); // to ensure ScrollTrigger instances are properly cleaned up
 
     return (
         <section id="showcase">
