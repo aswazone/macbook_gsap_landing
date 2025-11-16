@@ -49,6 +49,10 @@ html {
     width: 100vw;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer/Edge */
+    scrollbar-color: transparent; /* Chrome/Safari */
 }
 
 body {
@@ -89,7 +93,7 @@ body {
 
 @layer components {
     header {
-        @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh];
+        @apply w-screen fixed top-0 left-0 z-50 flex-center md:px-24 bg-black min-h-[7vh];
 
         nav {
             @apply container mx-auto flex-between px-5 2xl:px-0;
@@ -113,7 +117,7 @@ body {
     }
 
     #hero {
-        @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
+        @apply h-fit lg:h-[80vh] col-center mt-20 2xl:mt-[7vh];
 
         div {
             @apply relative z-10 col-center lg:translate-y-16;
@@ -141,14 +145,14 @@ body {
     }
 
     #product-viewer {
-        @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40;
+        @apply container relative min-h-[93vh] mx-auto px-5 md:px-14 mt-40;
 
         h2 {
             @apply text-white font-semibold text-3xl lg:text-6xl;
         }
 
         .controls {
-            @apply absolute z-50 bottom-40 lg:bottom-40 2xl:bottom-52 left-1/2 -translate-x-1/2;
+            @apply absolute z-50 bottom-40 lg:bottom-40 2xl:bottom-48 left-1/2 -translate-x-1/2;
 
             .info {
                 @apply text-xs text-white bg-black/20 px-2 py-1 rounded-lg;
@@ -224,7 +228,7 @@ body {
     }
 
     #performance {
-        @apply w-dvw h-full overflow-hidden pt-20 lg:pt-20 flex flex-col items-center relative;
+        @apply w-dvw h-full px-14 overflow-hidden pt-20 lg:pt-20 flex flex-col items-center relative;
 
         h2 {
             @apply font-semibold text-3xl lg:text-6xl text-white max-w-2xl text-center;
@@ -276,7 +280,7 @@ body {
     }
 
     #features {
-        @apply pt-40 relative;
+        @apply pt-40 mx-14 relative;
 
         h2 {
             @apply text-white font-semibold text-3xl lg:text-7xl text-center max-w-3xl mx-auto;
@@ -307,7 +311,7 @@ body {
         }
 
         .masonry {
-            @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 text-[#F5F5F7];
+            @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 md:px-14 text-[#F5F5F7];
 
             .left-column {
                 @apply flex flex-col justify-between gap-5 opacity-0 -translate-y-5;
@@ -400,7 +404,7 @@ body {
     }
 
     footer {
-        @apply container mx-auto py-7 max-lg:px-5;
+        @apply container mx-auto py-7 md:px-14 max-lg:px-5;
 
         .info {
             @apply flex-between;
