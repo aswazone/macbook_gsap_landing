@@ -4,7 +4,7 @@ import Hero from "./components/Hero.jsx";
 import ProductViewer from "./components/ProductViewer.jsx";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/all";
-import Showcase from "../Showcase.jsx";
+import Showcase from "./components/Showcase.jsx";
 
 gsap.registerPlugin(ScrollTrigger); // registering the plugin is neccesary !
 
