@@ -73,7 +73,7 @@ const Performance = () => {
             <div className="wrapper">
                 {performanceImages.map((item, index) => (
                     <img
-                        key={index}
+                        key={item.id}
                         src={item.src}
                         className={clsx(
                             `${item.id} drop-shadow-2xl drop-shadow-gray-900`, isMobile && item.id === 'p5' && 'z-10'
