@@ -1,5 +1,4 @@
 import {create} from "zustand";
-import {texture} from "three/src/Three.TSL.js";
 
 const useMacbookStore = create((set) => ({
     color: '#2e2c2e',
