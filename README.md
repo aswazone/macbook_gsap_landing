@@ -1,101 +1,123 @@
 <div align="center">
   <br />
-    <a href="" target="_blank">
-      <img src="public/readme/hero-banner.png" alt="Project Banner">
-    </a>
+  <a href="" target="_blank">
+    <img src="public/readme/hero-banner.png" alt="Project Banner">
+  </a>
   <br />
 
   <div>
-<img src="https://img.shields.io/badge/-React-58C4DC?style=for-the-badge&logo=React&logoColor=white" />
-<img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-<img src="https://img.shields.io/badge/-Three.js-27136A?style=for-the-badge&logo=three.js&logoColor=white" />
-<img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/-CodeRabbit-FF6C37?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-<img src="https://img.shields.io/badge/-Hostinger-674CC4?style=for-the-badge&logo=hostinger&logoColor=white" />
-
-
+    <img src="https://img.shields.io/badge/-React-58C4DC?style=for-the-badge&logo=React&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Three.js-27136A?style=for-the-badge&logo=three.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CodeRabbit-FF6C37?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Hostinger-674CC4?style=for-the-badge&logo=hostinger&logoColor=white" />
   </div>
 
   <h3 align="center">MacBook Landing Page Clone</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
 1. ✨ [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 
-## <a name="introduction">✨ Introduction</a>
+---
 
-Apple-style 3D website built with React, Three.js, GSAP, and TailwindCSS! Showcase products in immersive 3D scenes, scroll-animated models, and pinned sections. Featuring responsive design, smooth timeline animations, and visually striking image transitions—perfect for developers creating interactive, modern web experiences.
+## ✨ Introduction
 
+A modern **Apple-style 3D landing page** built with **React, Three.js, GSAP, and TailwindCSS**.  
+This project recreates the immersive feel of Apple product pages using:
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+- Cinematic 3D product scenes  
+- Scroll-triggered model animations  
+- Masking and reveal effects  
+- Smooth timeline-based transitions  
+- Fully responsive, minimal, premium UI  
 
-- **[CodeRabbit](https://jsm.dev/mbook-coderabbit)** is an AI-powered code review tool that integrates with IDEs like VS Code and Git platforms such as GitHub and GitLab. It provides real-time, context-aware feedback on pull requests, including line-by-line analysis, security vulnerability detection, and adherence to coding standards. CodeRabbit learns from your team's preferences, adapting its reviews over time to enhance code quality and developer productivity.
+Perfect for developers exploring **scroll-based 3D interactions** and **production-quality web animations**.
 
-- **[GSAP](https://gsap.com/)** is a powerful JavaScript animation library used in this project to create dynamic, scroll-driven visuals. Features include SplitText animations for bold text reveals, ScrollTrigger for timeline control, parallax scrolling, pinned sections, scroll-synced video playback, seamless multi-section timelines, image masking effects, and a fully custom animated carousel.
+---
 
-- **[React](https://react.dev/)** is a declarative JavaScript library for building interactive UIs. It provides the component structure for modular development, allowing smooth integration of GSAP animations, reusable logic for scroll behavior, and support for responsive layout and state-driven UI features like carousels and video sections.
+## ⚙️ Tech Stack
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+### **🧠 CodeRabbit**  
+AI-powered code review assistant for VS Code, GitHub, and GitLab.  
+Provides real-time suggestions, security checks, PR reviews, and adapts to your coding style.
 
-- **[Three.js](https://threejs.org/)** is a powerful JavaScript 3D library used in this project to render interactive 3D graphics in the browser. Features include WebGL-based rendering, support for cameras, lights, and materials, 3D model importing, geometry and texture manipulation, scene graph management, animation capabilities, raycasting for interactivity, and integration with physics and post-processing effects for immersive experiences.
+### **⚡ GSAP (GreenSock Animation Platform)**  
+Used to control scroll-driven interactions:  
+- SplitText animations  
+- ScrollTrigger timelines  
+- Parallax & pinned sections  
+- Scroll-synced video/image transitions  
+- Advanced masking and reveal effects  
+- Smooth carousel animations
 
-- **[Vite](https://vitejs.dev/)** is a lightning-fast build tool and development server that powers this project’s workflow. It enables instant hot module replacement, fast startup, and optimized production builds—ideal for an animation-heavy React site with smooth, real-time development feedback and minimal config.
+### **⚛️ React**  
+Component-based architecture enabling reusable UI sections, clean structure, and tight integration with GSAP + Three.js logic.
 
-- **[Zustand](https://zustand-demo.pmnd.rs/)** is a lightweight and flexible state management library for React. In this project, it’s used to manage global state efficiently, enabling reactive updates with minimal boilerplate. Features include simple store creation, easy state slicing, middleware support for logging and persistence, seamless integration with React components, and performant state updates without unnecessary re-renders.
+### **🎨 Tailwind CSS**  
+Utility-first styling with responsive classes, fast layout building, and clean design.
 
-## <a name="features">🔋 Features</a>
+### **🎬 Three.js**  
+Handles all WebGL 3D rendering, including:  
+- Lighting  
+- Cameras  
+- Materials  
+- Model loading  
+- Post-processing effects  
+- Raycasting and scene interactivity  
 
-👉 **3D Product Scene with Realistic Lighting System**: Showcase products in lifelike 3D environments for maximum visual impact.
+### **⚡ Vite**  
+Ultra-fast dev server and build tool with instant HMR—ideal for animation-heavy environments.
 
-👉 **Animate 3D Model on Scroll**: Create immersive interactions by animating 3D models based on user scroll position.
+### **📦 Zustand**  
+Lightweight global state library with minimal boilerplate and fast reactivity.
 
-👉 **ScrollTrigger Effects**: Power scroll-based animations and timeline control with GSAP’s ScrollTrigger.
+---
 
-👉 **Pinned Sections**: Lock sections in view while animating content for engaging scroll experiences.
+## 🔋 Features
 
-👉 **Image Masking Effects**: Use scroll-triggered pins and masks for visually striking image transitions.
+👉 **Realistic 3D Product Scene**  
+High-quality 3D visuals with dynamic lighting.
 
-👉 **Seamless Timeline Animations**: Craft smooth animation timelines that span across multiple sections.
+👉 **Scroll-Driven 3D Animation**  
+Models animate smoothly in response to scroll position.
 
-👉 **Responsive Design**: Ensure fluid UI and adaptive GSAP animations across all screen sizes.
+👉 **GSAP ScrollTrigger Magic**  
+Fine control over timeline animation and scroll sync.
 
-And many more, including code architecture and reusability.
+👉 **Pinned & Stacked Sections**  
+Content locks into view to build immersive storytelling.
 
-## <a name="quick-start">🤸 Quick Start</a>
+👉 **Image Masking & Reveal Effects**  
+Seamless transitions and high-end visual effects.
 
-Follow these steps to set up the project locally on your machine.
+👉 **Multi-Section Timelines**  
+Animations progress naturally across large sections.
 
-**Prerequisites**
+👉 **Fully Responsive UI**  
+Fluid layouts paired with adaptive animations.
 
-Make sure you have the following installed on your machine:
+…and many more enhancements focusing on structure, reusability, and modern web animation.
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+---
 
-**Cloning the Repository**
+## 🤸 Quick Start
+
+### **Prerequisites**
+
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/en)  
+- [npm](https://www.npmjs.com/)
+
+---
+
+### **Clone the Repository**
 
 ```bash
 git clone https://github.com/aswazone/macbook_gsap_landing.git
 cd macbook_gsap_landing
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
